@@ -1,126 +1,132 @@
 [app] (name=fbrun)
-  [Position]	(CENTER)	{0 0}
-  [Layer]	{12}
+  [Position]    (CENTER)        {0 0}
+  [Layer]       {12}
 [end]
 [app] (name=plank) (class=Plank)
-  [Layer]	{8}
+  [Layer]       {8}
 [end]
 [app] (name=hexchat) (class=Hexchat)
-  [Dimensions]	{40% 33%}
-  [Position]	(UPPERLEFT)	{34% 36%}
-  [Close]	{yes}
+  [Dimensions]  {40% 33%}
+  [Position]    (UPPERLEFT)     {34% 36%}
+  [Close]       {yes}
 [end]
 [app] (name=lxterminal) (class=Lxterminal)
-  [Dimensions]	{56% 83%}
-  [Position]	(UPPERLEFT)	{34% 7%}
-  [Close]	{yes}
-  [Alpha]	{210}
+  [Dimensions]  {56% 83%}
+  [Position]    (UPPERLEFT)     {34% 7%}
+  [Close]       {yes}
+  [Alpha]       {210}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]	{66% 71%}
-  [Position]	(UPPERLEFT)	{0% -2%}
-  [Close]	{yes}
+  [Dimensions]  {66% 71%}
+  [Position]    (UPPERLEFT)     {0% -2%}
+  [Close]       {yes}
 [end]
 [app] (name=lxmusic) (class=Lxmusic)
-  [Position]	(UPPERLEFT)	{26% 32%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {26% 32%}
+  [Close]       {yes}
 [end]
 [app] (name=Pinta) (class=Pinta)
-  [Dimensions]	{95% 93%}
-  [Fullscreen]	{no}
-  [Close]	{yes}
+  [Dimensions]  {95% 93%}
+  [Fullscreen]  {no}
+  [Close]       {yes}
 [end]
 [app] (name=abiword) (class=Abiword) (role=topLevelWindow)
-  [Position]	(UPPERLEFT)	{5% 0%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {5% 0%}
+  [Close]       {yes}
 [end]
 [app] (name=gnumeric) (class=Gnumeric)
-  [Dimensions]	{75% 80%}
-  [Position]	(UPPERLEFT)	{8% 1%}
-  [Close]	{yes}
+  [Dimensions]  {75% 80%}
+  [Position]    (UPPERLEFT)     {8% 1%}
+  [Close]       {yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{35% 37%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {35% 37%}
+  [Close]       {yes}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Position]	(UPPERLEFT)	{0% 0%}
-  [Close]	{yes}
-  [Alpha]	{255}
+  [Position]    (UPPERLEFT)     {0% 0%}
+  [Close]       {yes}
+  [Alpha]       {255}
 [end]
 [app] (name=mousepad) (class=Mousepad)
-  [Dimensions]	{38% 49%}
-  [Position]	(UPPERLEFT)	{0% -2%}
-  [Close]	{yes}
+  [Dimensions]  {38% 49%}
+  [Position]    (UPPERLEFT)     {0% -2%}
+  [Close]       {yes}
 [end]
 [app] (name=pamac-manager) (class=Pamac-manager)
-  [Position]	(UPPERLEFT)	{5% 0%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {5% 0%}
+  [Close]       {yes}
 [end]
 [app] (name=gpartedbin) (class=GParted)
-  [Position]	(UPPERLEFT)	{28% 23%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {28% 23%}
+  [Close]       {yes}
 [end]
 [app] (name=lxappearance) (class=Lxappearance)
-  [Dimensions]	{61% 74%}
-  [Position]	(UPPERLEFT)	{21% 14%}
-  [Close]	{yes}
+  [Dimensions]  {61% 74%}
+  [Position]    (UPPERLEFT)     {21% 14%}
+  [Close]       {yes}
 [end]
 [app] (name=nitrogen) (class=Nitrogen)
-  [Position]	(UPPERLEFT)	{45% 0%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {45% 0%}
+  [Close]       {yes}
 [end]
 [app] (name=pavucontrol) (class=Pavucontrol)
-  [Dimensions]	{56% 59%}
-  [Position]	(UPPERLEFT)	{30% 21%}
-  [Close]	{yes}
+  [Dimensions]  {56% 59%}
+  [Position]    (UPPERLEFT)     {30% 21%}
+  [Close]       {yes}
 [end]
 [app] (name=system-config-printer.py) (class=System-config-printer.py)
-  [Dimensions]	{53% 51%}
-  [Position]	(UPPERLEFT)	{27% 30%}
-  [Close]	{yes}
+  [Dimensions]  {53% 51%}
+  [Position]    (UPPERLEFT)     {27% 30%}
+  [Close]       {yes}
 [end]
 [app] (name=xfce4-notifyd-config) (class=Xfce4-notifyd-config)
-  [Position]	(UPPERLEFT)	{49% 18%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {49% 18%}
+  [Close]       {yes}
 [end]
 [app] (name=system-config-printer.py) (class=System-config-printer.py)
-  [Dimensions]	{53% 51%}
-  [Position]	(UPPERLEFT)	{27% 30%}
-  [Close]	{yes}
+  [Dimensions]  {53% 51%}
+  [Position]    (UPPERLEFT)     {27% 30%}
+  [Close]       {yes}
 [end]
 [app] (name=xfce4-notifyd-config) (class=Xfce4-notifyd-config)
-  [Position]	(UPPERLEFT)	{49% 18%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {49% 18%}
+  [Close]       {yes}
 [end]
 [app] (name=xfburn) (class=Xfburn)
-  [Dimensions]	{60% 69%}
-  [Close]	{yes}
+  [Dimensions]  {60% 69%}
+  [Close]       {yes}
 [end]
 [app] (name=timeset-gui) (class=Timeset-gui)
-  [Position]	(UPPERLEFT)	{41% 10%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {41% 10%}
+  [Close]       {yes}
 [end]
 [app] (name=google-chrome) (class=google-chrome) (role=browser)
-  [Workspace]	{2}
-  [Layer]	{8}
+  [Workspace]   {2}
+  [Layer]       {8}
 [end]
 [app] (name=emacs) (class=Emacs)
-  [Workspace]	{1}
-  [Layer]	{8}
+  [Workspace]   {1}
+  [Layer]       {8}
 [end]
 [app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=terminal)
-  [Dimensions]	{56% 83%}
-  [Position]	(UPPERLEFT)	{34% 7%}
-  [Close]	{yes}
-  [Alpha]	{210}
+  [Dimensions]  {56% 83%}
+  [Position]    (UPPERLEFT)     {34% 7%}
+  [Close]       {yes}
+  [Alpha]       {210}
 [end]
 [app] (name=Mail) (class=Thunderbird) (role=3pane)
-  [Workspace]	{3}
-  [Maximized]	{yes}
+  [Workspace]   {3}
+  [Maximized]   {yes}
 [end]
 [app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=xfce4-terminal-1447668578--654792524)
-  [Workspace]	{0}
-  [Sticky]	{yes}
-  [Layer]	{8}
+  [Workspace]   {0}
+  [Sticky]      {yes}
+  [Layer]       {8}
+[end]
+[app] (name=gpicview) (class=Gpicview)
+  [Workspace]   {4}
+  [Jump]        {yes}
+  [Layer]       {8}
+  [Close]       {yes}
 [end]
