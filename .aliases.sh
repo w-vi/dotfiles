@@ -37,3 +37,4 @@ alias open='xdg-open'
 
 alias wakeupholly='wol 00:11:32:49:04:35'
 alias dotfiles="git --work-tree=$HOME --git-dir=$HOME/.dotfiles.git"
+alias pyact='source ./venv/bin/activate'

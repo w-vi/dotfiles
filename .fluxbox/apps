@@ -44,7 +44,7 @@
   [Close]	{yes}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Position]	(UPPERLEFT)	{31% 10%}
+  [Position]	(UPPERLEFT)	{0% 0%}
   [Close]	{yes}
   [Alpha]	{255}
 [end]
