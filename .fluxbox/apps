@@ -10,14 +10,8 @@
   [Position]    (UPPERLEFT)     {34% 36%}
   [Close]       {yes}
 [end]
-[app] (name=lxterminal) (class=Lxterminal)
-  [Dimensions]  {56% 83%}
-  [Position]    (UPPERLEFT)     {34% 7%}
-  [Close]       {yes}
-  [Alpha]       {210}
-[end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]  {66% 71%}
+  [Dimensions]  {58% 62%}
   [Position]    (UPPERLEFT)     {0% -2%}
   [Close]       {yes}
 [end]
@@ -102,11 +96,11 @@
   [Close]       {yes}
 [end]
 [app] (name=google-chrome) (class=google-chrome) (role=browser)
-  [Workspace]   {2}
+  [Workspace]   {3}
   [Layer]       {8}
 [end]
 [app] (name=emacs) (class=Emacs)
-  [Workspace]   {1}
+  [Workspace]   {2}
   [Layer]       {8}
 [end]
 [app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=terminal)
@@ -116,16 +110,16 @@
   [Alpha]       {210}
 [end]
 [app] (name=Mail) (class=Thunderbird) (role=3pane)
-  [Workspace]   {3}
+  [Workspace]   {4}
   [Maximized]   {yes}
 [end]
 [app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=xfce4-terminal-1447668578--654792524)
-  [Workspace]   {0}
+  [Workspace]   {1}
   [Sticky]      {yes}
   [Layer]       {8}
 [end]
 [app] (name=gpicview) (class=Gpicview)
-  [Workspace]   {4}
+  [Workspace]   {0}
   [Jump]        {yes}
   [Layer]       {8}
   [Close]       {yes}
