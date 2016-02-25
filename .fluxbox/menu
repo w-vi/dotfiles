@@ -13,31 +13,22 @@
   [exec] (Chromium) {chromium}
   [exec] (Claws Mail) {claws-mail}
   [exec] (Dropbox) {dropbox}
+  [exec] (ELinks) {lxterminal -e '/usr/bin/elinks'}
   [exec] (FileZilla) {filezilla}
-  [exec] (Firefox) {firefox}
-  [exec] (Google Chrome) {/usr/bin/google-chrome-stable}
+  [exec] (Google Chrome (beta\)) {/usr/bin/google-chrome-beta}
   [exec] (HexChat) {hexchat}
-  [exec] (Skype) {skype}
+  [exec] (Pale Moon) {palemoon}
   [exec] (Thunderbird) {thunderbird}
 [end]
 [submenu] (Office)
   [exec] (AbiWord) {abiword}
-  [exec] (Document Viewer) {evince}
   [exec] (Gnumeric) {gnumeric}
-  [exec] (LibreOffice Base) {libreoffice --base}
-  [exec] (LibreOffice Calc) {libreoffice --calc}
-  [exec] (LibreOffice Draw) {libreoffice --draw}
-  [exec] (LibreOffice Impress) {libreoffice --impress}
-  [exec] (LibreOffice Math) {libreoffice --math}
-  [exec] (LibreOffice Writer) {libreoffice --writer}
-  [exec] (LibreOffice) {libreoffice}
   [exec] (qpdfview) {qpdfview --unique}
 [end]
 [submenu] (Graphics)
-  [exec] (Document Viewer) {evince}
+  [exec] (Gcolor2) {gcolor2}
   [exec] (GNU Image Manipulation Program) {gimp-2.8}
   [exec] (Image Viewer) {gpicview}
-  [exec] (LibreOffice Draw) {libreoffice --draw}
   [exec] (Pinta) {pinta}
   [exec] (Simple Scan) {simple-scan}
 [end]
@@ -46,9 +37,6 @@
   [exec] (PulseAudio Volume Control) {pavucontrol}
   [exec] (Qt V4L2 test Utility) {qv4l2}
   [exec] (VLC media player) {/usr/bin/vlc --started-from-file}
-[end]
-[submenu] (Education)
-  [exec] (LibreOffice Math) {libreoffice --math}
 [end]
 [submenu] (Tools)
 [submenu] (Accessories)
@@ -68,13 +56,11 @@
   [exec] (Avahi Zeroconf Browser) {/usr/bin/avahi-discover}
   [exec] (GParted) {/usr/bin/gparted_polkit}
   [exec] (Htop) {lxterminal -e 'htop'}
+  [exec] (Isousb) {gksu isousb}
   [exec] (LXTerminal) {lxterminal}
   [exec] (Manjaro Welcome) {manjaro-welcome}
   [exec] (Print Settings) {system-config-printer}
   [exec] (Software Update) {pamac-updater}
-  [exec] (urxvt (client\)) {urxvtc}
-  [exec] (urxvt (tabbed\)) {urxvt-tabbed}
-  [exec] (urxvt) {urxvt}
   [exec] (Xfce Terminal) {xfce4-terminal}
 [end]
 [submenu] (Settings)

@@ -3,7 +3,7 @@
   [Layer]       {12}
 [end]
 [app] (name=plank) (class=Plank)
-  [Layer]       {8}
+  [Layer]       {10}
 [end]
 [app] (name=hexchat) (class=Hexchat)
   [Dimensions]  {40% 33%}
@@ -11,7 +11,7 @@
   [Close]       {yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]  {58% 62%}
+  [Dimensions]  {69% 83%}
   [Position]    (UPPERLEFT)     {0% -2%}
   [Close]       {yes}
 [end]
@@ -95,7 +95,7 @@
   [Position]    (UPPERLEFT)     {41% 10%}
   [Close]       {yes}
 [end]
-[app] (name=google-chrome) (class=google-chrome) (role=browser)
+[app] (name=google-chrome-beta) (class=google-chrome) (role=browser)
   [Workspace]   {3}
   [Layer]       {8}
 [end]
