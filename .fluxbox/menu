@@ -12,20 +12,21 @@
   [exec] (Avahi VNC Server Browser) {/usr/bin/bvnc}
   [exec] (Chromium) {chromium}
   [exec] (Claws Mail) {claws-mail}
+  [exec] (Deluge) {deluge-gtk}
   [exec] (Dropbox) {dropbox}
   [exec] (ELinks) {lxterminal -e '/usr/bin/elinks'}
   [exec] (FileZilla) {filezilla}
   [exec] (Google Chrome (beta\)) {/usr/bin/google-chrome-beta}
   [exec] (HexChat) {hexchat}
-  [exec] (Pale Moon) {palemoon}
   [exec] (Thunderbird) {thunderbird}
 [end]
 [submenu] (Office)
   [exec] (AbiWord) {abiword}
+  [exec] (Document Viewer) {evince}
   [exec] (Gnumeric) {gnumeric}
-  [exec] (qpdfview) {qpdfview --unique}
 [end]
 [submenu] (Graphics)
+  [exec] (Document Viewer) {evince}
   [exec] (Gcolor2) {gcolor2}
   [exec] (GNU Image Manipulation Program) {gimp-2.8}
   [exec] (Image Viewer) {gpicview}
@@ -37,6 +38,9 @@
   [exec] (PulseAudio Volume Control) {pavucontrol}
   [exec] (Qt V4L2 test Utility) {qv4l2}
   [exec] (VLC media player) {/usr/bin/vlc --started-from-file}
+[end]
+[submenu] (Games)
+  [exec] (PlayOnLinux) {playonlinux}
 [end]
 [submenu] (Tools)
 [submenu] (Accessories)
@@ -59,9 +63,12 @@
   [exec] (Isousb) {gksu isousb}
   [exec] (LXTerminal) {lxterminal}
   [exec] (Manjaro Welcome) {manjaro-welcome}
+  [exec] (Oracle VM VirtualBox) {VirtualBox}
   [exec] (Print Settings) {system-config-printer}
   [exec] (Software Update) {pamac-updater}
+  [exec] (UXTerm) {uxterm}
   [exec] (Xfce Terminal) {xfce4-terminal}
+  [exec] (XTerm) {xterm}
 [end]
 [submenu] (Settings)
   [exec] (Adobe Flash Player) {flash-player-properties}
