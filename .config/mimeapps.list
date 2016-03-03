@@ -18,8 +18,8 @@ application/x-extension-eml=userapp-Thunderbird-76N8TX.desktop
 x-scheme-handler/news=userapp-Thunderbird-76N8TX.desktop
 x-scheme-handler/snews=userapp-Thunderbird-76N8TX.desktop
 x-scheme-handler/nntp=userapp-Thunderbird-76N8TX.desktop
-application/xhtml+xml=google-chrome.desktop
-text/html=google-chrome.desktop
+application/xhtml+xml=google-chrome.desktop;google-chrome-beta.desktop
+text/html=google-chrome.desktop;google-chrome-beta.desktop
 
 [Added Associations]
 application/pdf=evince.desktop;qpdfview.desktop;
@@ -35,8 +35,8 @@ x-scheme-handler/snews=userapp-Thunderbird-76N8TX.desktop;
 x-scheme-handler/nntp=userapp-Thunderbird-76N8TX.desktop;
 x-scheme-handler/http=exo-web-browser.desktop
 x-scheme-handler/https=exo-web-browser.desktop
-application/xhtml+xml=google-chrome.desktop;chromium.desktop;
-text/html=google-chrome.desktop;chromium.desktop;
+application/xhtml+xml=google-chrome.desktop;google-chrome-beta.desktop;chromium.desktop;
+text/html=google-chrome.desktop;google-chrome-beta.desktop;chromium.desktop;
 image/jpeg=gpicview.desktop;viewnior.desktop;gimp.desktop;
 text/markdown=mousepad.desktop;
 video/mp4=vlc.desktop;
