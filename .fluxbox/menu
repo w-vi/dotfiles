@@ -14,8 +14,9 @@
   [exec] (Claws Mail) {claws-mail}
   [exec] (Deluge) {deluge-gtk}
   [exec] (Dropbox) {dropbox}
-  [exec] (ELinks) {lxterminal -e '/usr/bin/elinks'}
+  [exec] (ELinks) {xfce4-terminal -e '/usr/bin/elinks'}
   [exec] (FileZilla) {filezilla}
+  [exec] (Firefox) {firefox}
   [exec] (Google Chrome (beta\)) {/usr/bin/google-chrome-beta}
   [exec] (HexChat) {hexchat}
   [exec] (Thunderbird) {thunderbird}
@@ -39,9 +40,6 @@
   [exec] (Qt V4L2 test Utility) {qv4l2}
   [exec] (VLC media player) {/usr/bin/vlc --started-from-file}
 [end]
-[submenu] (Games)
-  [exec] (PlayOnLinux) {playonlinux}
-[end]
 [submenu] (Tools)
 [submenu] (Accessories)
   [exec] (Galculator) {galculator}
@@ -59,22 +57,24 @@
   [exec] (Add/Remove Software) {pamac-manager}
   [exec] (Avahi Zeroconf Browser) {/usr/bin/avahi-discover}
   [exec] (GParted) {/usr/bin/gparted_polkit}
-  [exec] (Htop) {lxterminal -e 'htop'}
+  [exec] (Htop) {xfce4-terminal -e 'htop'}
   [exec] (Isousb) {gksu isousb}
   [exec] (LXTerminal) {lxterminal}
   [exec] (Manjaro Welcome) {manjaro-welcome}
   [exec] (Oracle VM VirtualBox) {VirtualBox}
   [exec] (Print Settings) {system-config-printer}
   [exec] (Software Update) {pamac-updater}
-  [exec] (UXTerm) {uxterm}
+  [exec] (urxvt (client\)) {urxvtc}
+  [exec] (urxvt (tabbed\)) {urxvt-tabbed}
+  [exec] (urxvt) {urxvt}
   [exec] (Xfce Terminal) {xfce4-terminal}
-  [exec] (XTerm) {xterm}
 [end]
 [submenu] (Settings)
   [exec] (Adobe Flash Player) {flash-player-properties}
   [exec] (ARandR) {arandr}
   [exec] (Bluetooth Manager) {blueman-manager}
   [exec] (Firewall Configuration) {gufw}
+  [exec] (IcedTea-Web Control Panel) {/usr/share/icedtea-web/bin/itweb-settings}
   [exec] (Manjaro Settings Manager) {manjaro-settings-manager}
   [exec] (Network Connections) {nm-connection-editor}
   [exec] (Power Manager) {xfce4-power-manager-settings}
@@ -84,6 +84,7 @@
 [end]
 [end]
 [submenu] (Other)
+  [exec] (Data Display Debugger) {ddd}
   [exec] (Emacs) {emacs}
   [exec] (Qt4 Assistant) {assistant-qt4}
   [exec] (Qt4 Designer) {designer-qt4}

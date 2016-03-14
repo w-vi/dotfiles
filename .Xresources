@@ -1,0 +1,94 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+! URxvt config
+
+URxvt*termName:           rxvt-256color
+URxvt.scrollBar:          off
+URxvt.font:               xft:LiberationMono:size=12:antialias=true
+URxvt.boldFont:           xft:LiberationMono:size=12:antialias=true
+URxvt.internalBorder:     1
+URxvt*selectToClipboard:  true
+URxvt*saveLines:          100000
+
+URxvt.perl-ext-common:    default,matcher,tabbedex,searchable-scrollback
+URxvt.urlLauncher:        /usr/bin/google-chrome-beta
+URxvt.matcher.button:     1
+URxvt.tabbed.tabbar-fg:   8
+URxvt.tabbed.tabbar-bg:   0
+URxvt.tabbed.tab-fg:      2
+URxvt.tabbed.tab-bg:      0
+URxvt.tabbed.new-button:  no
+URxvt.tabbed.title:       no
+
+! Not so wide please
+URxvt.letterSpace: -1
+
+URxvt*xftAntialias: true
+
+! Zenburn like color-scheme
+URxvt.background              :#1f1f1f
+URxvt.foreground              :#dcdccc
+URxvt*cursorColor             :#aaaaaa
+! black + red
+URxvt.color0                  :#1f1f1f
+URxvt.color1                  :#994646
+! green + yellow
+URxvt.color2                  :#60b48a
+URxvt.color3                  :#dfaf8f
+! blue + purple
+URxvt.color4                  :#4c6b91
+URxvt.color5                  :#dc8cc3
+! cyan + white
+URxvt.color6                  :#8cd0d3
+URxvt.color7                  :#dcdccc
+! bright-black + bright-red
+URxvt.color8                  :#709080
+URxvt.color9                  :#dca3a3
+! bright-green + bright-yellow
+URxvt.color10                 :#81c97f
+URxvt.color11                 :#dfaf8f
+! bright-blue + bright-purple
+URxvt.color12                 :#94bff3
+URxvt.color13                 :#ec93d3
+! bright-cyan + bright-white
+URxvt.color14                 :#93e0e3
+URxvt.color15                 :#ffffff
+
+! ! Tango color palette
+! URxvt*background:         #2e3436
+! URxvt*foreground:         #eeeeec
+! URxvt*cursorColor:        #8ae234
+! ! foreground color for underline
+! URxvt*colorUL:            #8ae234
+! ! line color for underline
+! URxvt*underlineColor:     #92659a
+! ! black dark/light
+! URxvt*color0:             #2e3436
+! URxvt*color8:             #6e706b
+! ! red dark/light
+! URxvt*color1:             #cc0000
+! URxvt*color9:             #ef2929
+! ! green dark/light
+! URxvt*color2:             #4e9a06
+! URxvt*color10:            #8ae234
+! ! yellow dark/light
+! URxvt*color3:             #edd400
+! URxvt*color11:            #fce94f
+! ! blue dark/light
+! URxvt*color4:             #3465a4
+! URxvt*color12:            #729fcf
+! ! magenta dark/light
+! URxvt*color5:             #92659a
+! URxvt*color13:            #c19fbe
+! ! cyan dark/light
+! URxvt*color6:             #07c7ca
+! URxvt*color14:            #63e9e9
+! ! white dark/light
+! URxvt*color7:             #d3d7cf
+! URxvt*color15:            #eeeeec
