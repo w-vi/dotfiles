@@ -101,7 +101,9 @@
 [end]
 [app] (name=emacs) (class=Emacs)
   [Workspace]	{2}
-  [Layer]	{8}
+  [Fullscreen]	{no}
+  [Layer]	{2}
+  [Close]	{yes}
 [end]
 [app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=terminal)
   [Dimensions]	{56% 83%}
@@ -126,4 +128,9 @@
 [end]
 [app] (name=google-chrome-beta \(/home/wvi/.config/google-chrome-beta\)) (class=google-chrome-beta) (role=browser)
   [Workspace]	{3}
+  [Close]	{yes}
+[end]
+[app] (name=urxvt) (class=URxvt)
+  [Maximized]	{yes}
+  [Close]	{yes}
 [end]

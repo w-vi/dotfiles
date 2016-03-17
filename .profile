@@ -16,7 +16,7 @@ stty stop ^X
 export HISTFILE=~/.histfile
 export HISTSIZE=900000
 export JAVA_FONTS=/usr/share/fonts/TTF
-export EDITOR='emacsclient -nw'
+export EDITOR='~/bin/edit.sh'
 export PAGER=less
 
 alias fixit='sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu  &&
