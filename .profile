@@ -60,3 +60,5 @@ ex ()
 
 source /usr/share/nvm/init-nvm.sh
 PATH="/usr/local/heroku/bin:$PATH"
+
+source ~/.private.sh
