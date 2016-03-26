@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type = Action
+Name = Unmount
+Tooltip = Unmount device
+Icon = media-eject
+Profiles = profile-zero;
+
+[X-Action-Profile profile-zero]
+Name = Unmount
+MimeTypes = inode/mount-point
+SelectionCount = 1
+Exec = unmount %f
