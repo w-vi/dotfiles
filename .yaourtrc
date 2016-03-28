@@ -1,0 +1,6 @@
+# I'm not going to edit the files
+EDITFILES=0
+# Don't prompt me during the build
+BUILD_NOCONFIRM=1
+# No prompt while build upgrades (including -Sbu)
+UP_NOCONFIRM=0

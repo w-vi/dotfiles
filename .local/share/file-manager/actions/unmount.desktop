@@ -9,4 +9,4 @@ Profiles = profile-zero;
 Name = Unmount
 MimeTypes = inode/mount-point
 SelectionCount = 1
-Exec = unmount %f
+Exec = unmount
