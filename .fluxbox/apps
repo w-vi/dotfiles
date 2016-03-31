@@ -127,7 +127,7 @@
   [Close]	{yes}
 [end]
 [app] (name=google-chrome-beta \(/home/wvi/.config/google-chrome-beta\)) (class=google-chrome-beta) (role=browser)
-  [Workspace]	{3}
+  [Workspace]	{0}
   [Close]	{yes}
 [end]
 [app] (name=urxvt) (class=URxvt)
