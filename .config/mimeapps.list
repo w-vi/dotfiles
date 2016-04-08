@@ -42,3 +42,4 @@ text/markdown=mousepad.desktop;
 video/mp4=vlc.desktop;
 image/jp2=gimp.desktop;
 video/quicktime=vlc.desktop;
+application/x-iff=mousepad.desktop;

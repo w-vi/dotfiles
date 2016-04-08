@@ -59,7 +59,6 @@
   [exec] (GParted) {/usr/bin/gparted_polkit}
   [exec] (Htop) {xfce4-terminal -e 'htop'}
   [exec] (Isousb) {gksu isousb}
-  [exec] (LXTerminal) {lxterminal}
   [exec] (Manjaro Welcome) {manjaro-welcome}
   [exec] (Oracle VM VirtualBox) {VirtualBox}
   [exec] (Print Settings) {system-config-printer}
@@ -67,7 +66,6 @@
   [exec] (urxvt (client\)) {urxvtc}
   [exec] (urxvt (tabbed\)) {urxvt-tabbed}
   [exec] (urxvt) {urxvt}
-  [exec] (Xfce Terminal) {xfce4-terminal}
 [end]
 [submenu] (Settings)
   [exec] (Adobe Flash Player) {flash-player-properties}

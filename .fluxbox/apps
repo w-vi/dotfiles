@@ -6,12 +6,12 @@
   [Layer]	{10}
 [end]
 [app] (name=hexchat) (class=Hexchat)
-  [Dimensions]	{40% 33%}
-  [Position]	(UPPERLEFT)	{34% 36%}
+  [Dimensions]	{100% 99%}
+  [Position]	(UPPERLEFT)	{0% 1%}
   [Close]	{yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]	{66% 71%}
+  [Dimensions]	{17% 29%}
   [Position]	(UPPERLEFT)	{0% -2%}
   [Close]	{yes}
 [end]
@@ -127,7 +127,7 @@
   [Close]	{yes}
 [end]
 [app] (name=google-chrome-beta \(/home/wvi/.config/google-chrome-beta\)) (class=google-chrome-beta) (role=browser)
-  [Workspace]	{0}
+  [Workspace]	{3}
   [Close]	{yes}
 [end]
 [app] (name=urxvt) (class=URxvt)
