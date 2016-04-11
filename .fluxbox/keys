@@ -80,7 +80,7 @@ Mod1 F10 :Maximize
 Mod1 F11 :Fullscreen
 
 # open the window menu
-Mod1 space :WindowMenu
+Mod1 Space :WindowMenu
 
 # exit fluxbox
 Control Mod1 Delete :Exec xscreensaver-command -activate
