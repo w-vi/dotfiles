@@ -43,3 +43,4 @@ video/mp4=vlc.desktop;
 image/jp2=gimp.desktop;
 video/quicktime=vlc.desktop;
 application/x-iff=mousepad.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=abiword.desktop;

@@ -33,9 +33,11 @@ alias pgrp='pgrep -ai'
 alias tags='gtags'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
-
 alias open='xdg-open'
 
 alias wakeupholly='wol 00:11:32:49:04:35'
 alias dotfiles="git --work-tree=$HOME --git-dir=$HOME/.dotfiles.git"
 alias pyact='source ./venv/bin/activate'
+alias home='~/.screenlayout/single-home.sh'
+alias apiary='~/.screenlayout/apiary.sh'
+alias laptop='~/.screenlayout/laptop.sh'
