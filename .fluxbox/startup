@@ -18,7 +18,6 @@ xfce4-power-manager &
 dropbox &
 emacs &
 google-chrome-beta &
-hexchat &
 thunderbird &
 
 # exec is for starting Fluxbox itself, do not put an ampersand (&) after this or Fluxbox will exit immediately.
