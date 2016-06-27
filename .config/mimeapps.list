@@ -3,7 +3,7 @@ application/pdf=evince.desktop
 text/plain=mousepad.desktop
 image/jpeg=gpicview.desktop
 application/xml=mousepad.desktop
-image/png=viewnior.desktop
+image/png=gpicview.desktop
 image/gif=viewnior.desktop
 video/x-ms-wmv=vlc.desktop
 video/mp4=vlc.desktop
@@ -20,6 +20,7 @@ x-scheme-handler/snews=userapp-Thunderbird-76N8TX.desktop
 x-scheme-handler/nntp=userapp-Thunderbird-76N8TX.desktop
 application/xhtml+xml=google-chrome.desktop;google-chrome-beta.desktop
 text/html=google-chrome.desktop;google-chrome-beta.desktop
+audio/x-ms-wma=vlc.desktop
 
 [Added Associations]
 application/pdf=evince.desktop;qpdfview.desktop;
@@ -39,3 +40,6 @@ image/jp2=gimp.desktop;
 video/quicktime=vlc.desktop;
 application/x-iff=mousepad.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=abiword.desktop;
+application/x-trash=mousepad.desktop;
+image/png=gpicview.desktop;
+audio/x-ms-wma=vlc.desktop;
