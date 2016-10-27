@@ -23,6 +23,9 @@
   [exec] (Steam) {env STEAM_RUNTIME=1 /usr/bin/steam}
   [exec] (Thunderbird) {thunderbird}
   [exec] (Web Browser) {exo-open --launch WebBrowser}
+  [exec] (WiFi Radar) {wifi-radar_polkit}
+  [exec] (Zenmap (as root\)) {/usr/share/zenmap/su-to-zenmap.sh}
+  [exec] (Zenmap) {zenmap}
 [end]
 [submenu] (Office)
   [exec] (AbiWord) {abiword}
@@ -58,7 +61,6 @@
   [exec] (LibreOffice Math) {libreoffice --math}
 [end]
 [submenu] (Games)
-  [exec] (Steam (Purge Libraries\)) {/usr/bin/steam-clean}
   [exec] (Steam) {env STEAM_RUNTIME=1 /usr/bin/steam}
 [end]
 [submenu] (Tools)
@@ -112,10 +114,10 @@
   [exec] (CMake) {cmake-gui}
   [exec] (Data Display Debugger) {ddd}
   [exec] (Emacs) {emacs}
-  [exec] (Qt Assistant) {/usr/lib/qt/bin/assistant}
-  [exec] (Qt Designer) {/usr/lib/qt/bin/designer}
-  [exec] (Qt Linguist) {/usr/lib/qt/bin/linguist}
-  [exec] (Qt QDbusViewer) {/usr/lib/qt/bin/qdbusviewer}
+  [exec] (Qt Assistant) {assistant}
+  [exec] (Qt Designer) {designer}
+  [exec] (Qt Linguist) {linguist}
+  [exec] (Qt QDbusViewer) {qdbusviewer}
   [exec] (Qt4 Assistant) {assistant-qt4}
   [exec] (Qt4 Designer) {designer-qt4}
   [exec] (Qt4 Linguist) {linguist-qt4}

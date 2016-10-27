@@ -7,8 +7,8 @@
 [end]
 [app] (name=hexchat) (class=Hexchat)
   [Workspace]	{4}
-  [Dimensions]	{21% 43%}
-  [Position]	(UPPERLEFT)	{39% 36%}
+  [Dimensions]	{69% 56%}
+  [Position]	(UPPERLEFT)	{0% 0%}
   [Close]	{yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
@@ -107,5 +107,11 @@
   [Close]	{yes}
 [end]
 [app] (name=google-chrome-beta \(/home/wvi/.config/google-chrome-beta\)) (class=Google-chrome-beta) (role=browser)
+  [Workspace]	{3}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+  [Workspace]	{3}
+[end]
+[app] (name=chromium) (class=chromium) (role=browser)
   [Workspace]	{3}
 [end]
