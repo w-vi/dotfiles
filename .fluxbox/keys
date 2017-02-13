@@ -92,6 +92,9 @@ Mod1 Caps_Lock :Exec if [[ $(setxkbmap -query|awk '/layout:/ {print $2}') == 'us
 # print screen do a full screen screenshot
 Print :Exec fb-screenshot -d
 
+# print screen do a select area screen screenshot
+Shift Print :Exec gnome-screenshot -a
+
 # change to previous/next workspace
 Control Mod1 Left :PrevWorkspace
 Control Mod1 Right :NextWorkspace
@@ -130,7 +133,7 @@ Mod4 Shift F8 :SendToWorkspace 8
 Mod4 Shift F9 :SendToWorkspace 9
 Mod4 Shift F10 :SendToWorkspace 10
 Mod4 Shift F11 :SendToWorkspace 11
-Mod4 Shift F12 :SendToWorkspace 12
+Mod4 Shift F12 :SendToWorkspace 12y
 
 # send the current window and change to a specific workspace
 Control Mod4 F1 :TakeToWorkspace 1

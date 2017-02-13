@@ -7,8 +7,8 @@
 [end]
 [app] (name=hexchat) (class=Hexchat)
   [Workspace]	{4}
-  [Dimensions]	{69% 56%}
-  [Position]	(UPPERLEFT)	{0% 0%}
+  [Dimensions]	{24% 50%}
+  [Position]	(UPPERLEFT)	{38% 41%}
   [Close]	{yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
@@ -30,7 +30,7 @@
   [Close]	{yes}
 [end]
 [app] (name=gnumeric) (class=Gnumeric)
-  [Dimensions]	{100% 117%}
+  [Dimensions]	{98% 104%}
   [Position]	(UPPERLEFT)	{0% -2%}
   [Close]	{yes}
 [end]
@@ -39,13 +39,13 @@
   [Close]	{yes}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Position]	(UPPERLEFT)	{0% -2%}
+  [Position]	(UPPERLEFT)	{0% 0%}
   [Close]	{yes}
   [Alpha]	{255}
 [end]
 [app] (name=mousepad) (class=Mousepad)
-  [Dimensions]	{38% 49%}
-  [Position]	(UPPERLEFT)	{0% -2%}
+  [Dimensions]	{25% 36%}
+  [Position]	(UPPERLEFT)	{0% -1%}
   [Close]	{yes}
 [end]
 [app] (name=pamac-manager) (class=Pamac-manager)
@@ -107,7 +107,7 @@
   [Close]	{yes}
 [end]
 [app] (name=google-chrome-beta \(/home/wvi/.config/google-chrome-beta\)) (class=Google-chrome-beta) (role=browser)
-  [Workspace]	{3}
+  [Workspace]	{0}
 [end]
 [app] (name=Navigator) (class=Firefox) (role=browser)
   [Workspace]	{3}

@@ -17,7 +17,7 @@ URxvt*selectToClipboard:  true
 URxvt*saveLines:          100000
 
 URxvt.perl-ext-common:    default,matcher,searchable-scrollback
-URxvt.urlLauncher:        /usr/bin/google-chrome-beta
+URxvt.urlLauncher:        /usr/bin/chromium
 URxvt.matcher.button:     1
 
 ! Not so wide please

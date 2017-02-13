@@ -31,7 +31,7 @@ ulimit -c unlimited
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
 #Add local directory to the path
-export PATH=/opt/local/bin:/opt/local/sbin:$HOME/.gem/ruby/2.3.0/bin:$HOME/bin:$GOROOT/bin:$GOPATH/bin:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:$HOME/.gem/ruby/2.3.0/bin:$HOME/bin:$GOROOT/bin:$GOPATH/bin:$HOME/.evm/bin:$PATH
 
 # ex - archive extractor
 # usage: ex <file>

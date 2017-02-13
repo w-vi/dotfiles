@@ -18,6 +18,7 @@
   [exec] (FileZilla) {filezilla}
   [exec] (Firefox) {firefox}
   [exec] (Google Chrome (beta\)) {/usr/bin/google-chrome-beta}
+  [exec] (GQRX SDR) {gqrx}
   [exec] (HexChat) {hexchat --existing}
   [exec] (Mail Reader) {exo-open --launch MailReader}
   [exec] (Steam) {env STEAM_RUNTIME=1 /usr/bin/steam}
@@ -50,12 +51,18 @@
   [exec] (Simple Scan) {simple-scan}
 [end]
 [submenu] (Multimedia)
+  [exec] (Ardour 4) {ardour4}
   [exec] (Audacity) {env UBUNTU_MENUPROXY=0 audacity}
+  [exec] (GQRX SDR) {gqrx}
   [exec] (LXMusic simple music player) {lxmusic}
   [exec] (PulseAudio Volume Control) {pavucontrol}
   [exec] (Qt V4L2 test Utility) {qv4l2}
+  [exec] (Qtractor) {/usr/bin/qtractor}
   [exec] (VLC media player) {/usr/bin/vlc --started-from-file}
   [exec] (Xfburn) {xfburn}
+  [exec] (ZynAddSubFX - Alsa) {zynaddsubfx -I alsa -O alsa}
+  [exec] (ZynAddSubFX - Jack) {zynaddsubfx -I jack -O jack}
+  [exec] (Zynaddsubfx) {zynaddsubfx}
 [end]
 [submenu] (Education)
   [exec] (LibreOffice Math) {libreoffice --math}
@@ -69,7 +76,9 @@
   [exec] (HP Device Manager) {hp-toolbox}
   [exec] (ipython) {xfce4-terminal -e 'ipython'}
   [exec] (Mousepad) {mousepad}
+  [exec] (nitrogen) {nitrogen}
   [exec] (Root Terminal) {gksu -l gnome-terminal}
+  [exec] (Screenshot) {gnome-screenshot --interactive}
   [exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
   [exec] (Xarchiver) {xarchiver}
   [exec] (Xfburn) {xfburn}
@@ -86,14 +95,17 @@
   [exec] (GParted) {/usr/bin/gparted_polkit}
   [exec] (Htop) {xfce4-terminal -e 'htop'}
   [exec] (Isousb) {gksu isousb}
+  [exec] (LSHW) {/usr/sbin/gtk-lshw}
   [exec] (Manjaro Welcome) {manjaro-welcome}
   [exec] (Oracle VM VirtualBox) {VirtualBox}
   [exec] (Print Settings) {system-config-printer}
   [exec] (Software Update) {pamac-updater}
+  [exec] (UNetbootin) {/usr/bin/unetbootin}
   [exec] (urxvt (client\)) {urxvtc}
   [exec] (urxvt (tabbed\)) {urxvt-tabbed}
   [exec] (urxvt) {urxvt}
   [exec] (UXTerm) {uxterm}
+  [exec] (WinUSB) {winusbgui}
   [exec] (XTerm) {xterm}
 [end]
 [submenu] (Settings)
@@ -114,6 +126,8 @@
   [exec] (CMake) {cmake-gui}
   [exec] (Data Display Debugger) {ddd}
   [exec] (Emacs) {emacs}
+  [exec] (FLUID) {fluid}
+  [exec] (GRC) {gnuradio-companion}
   [exec] (Qt Assistant) {assistant}
   [exec] (Qt Designer) {designer}
   [exec] (Qt Linguist) {linguist}
@@ -122,6 +136,7 @@
   [exec] (Qt4 Designer) {designer-qt4}
   [exec] (Qt4 Linguist) {linguist-qt4}
   [exec] (Qt4 QDbusViewer) {qdbusviewer-qt4}
+  [exec] (R) {xfce4-terminal -e 'R'}
 [end]
 [separator]
 [submenu] (Customization)
