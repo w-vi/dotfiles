@@ -61,7 +61,7 @@ Mod4 9 :Tab 9
 Mod1 F1 :Exec xfce4-terminal
 
 # open a dialog to run programs
-Mod1 65 :Exec fbrun -font cantarell-11
+Mod1 65 :Exec launcher
 
 # open dmenu
 Mod4 d :Exec dmenu_recency
@@ -90,7 +90,7 @@ Control Mod1 Delete :Exec xscreensaver-command -activate
 Mod1 Caps_Lock :Exec if [[ $(setxkbmap -query|awk '/layout:/ {print $2}') == 'us' ]]; then setxkbmap cz; else setxkbmap us; fi
 
 # print screen do a full screen screenshot
-Print :Exec fb-screenshot -d
+Print :Exec gnome-screenshot
 
 # print screen do a select area screen screenshot
 Shift Print :Exec gnome-screenshot -a

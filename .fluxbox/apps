@@ -7,12 +7,12 @@
 [end]
 [app] (name=hexchat) (class=Hexchat)
   [Workspace]	{4}
-  [Dimensions]	{24% 50%}
-  [Position]	(UPPERLEFT)	{38% 41%}
+  [Dimensions]	{35% 24%}
+  [Position]	(UPPERLEFT)	{34% 22%}
   [Close]	{yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]	{66% 71%}
+  [Dimensions]	{58% 105%}
   [Position]	(UPPERLEFT)	{0% -2%}
   [Close]	{yes}
 [end]
@@ -39,13 +39,13 @@
   [Close]	{yes}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Position]	(UPPERLEFT)	{0% 0%}
+  [Position]	(UPPERLEFT)	{31% 38%}
   [Close]	{yes}
   [Alpha]	{255}
 [end]
 [app] (name=mousepad) (class=Mousepad)
-  [Dimensions]	{25% 36%}
-  [Position]	(UPPERLEFT)	{0% -1%}
+  [Dimensions]	{33% 43%}
+  [Position]	(UPPERLEFT)	{0% -2%}
   [Close]	{yes}
 [end]
 [app] (name=pamac-manager) (class=Pamac-manager)
@@ -67,7 +67,7 @@
 [end]
 [app] (name=pavucontrol) (class=Pavucontrol)
   [Dimensions]	{56% 59%}
-  [Position]	(UPPERLEFT)	{30% 21%}
+  [Position]	(UPPERLEFT)	{10% 22%}
   [Close]	{yes}
 [end]
 [app] (name=xfburn) (class=Xfburn)
@@ -113,5 +113,8 @@
   [Workspace]	{3}
 [end]
 [app] (name=chromium) (class=chromium) (role=browser)
+  [Workspace]	{3}
+[end]
+[app] (name=chromium) (class=Chromium) (role=browser)
   [Workspace]	{3}
 [end]

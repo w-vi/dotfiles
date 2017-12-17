@@ -30,9 +30,11 @@ application/x-extension-html=userapp-Firefox-3JC3OY.desktop
 application/x-extension-shtml=userapp-Firefox-3JC3OY.desktop
 application/x-extension-xhtml=userapp-Firefox-3JC3OY.desktop
 application/x-extension-xht=userapp-Firefox-3JC3OY.desktop
+audio/mpeg=vlc.desktop
+audio/x-wav=vlc.desktop
 
 [Added Associations]
-application/pdf=evince.desktop;qpdfview.desktop;
+application/pdf=epdfview.desktop;evince.desktop;qpdfview.desktop;
 application/octet-stream=mousepad.desktop;
 application/x-gettext-translation=mousepad.desktop;
 application/x-wine-extension-ini=mousepad.desktop;
@@ -59,3 +61,6 @@ application/x-extension-html=userapp-Firefox-3JC3OY.desktop;
 application/x-extension-shtml=userapp-Firefox-3JC3OY.desktop;
 application/x-extension-xhtml=userapp-Firefox-3JC3OY.desktop;
 application/x-extension-xht=userapp-Firefox-3JC3OY.desktop;
+audio/mpeg=vlc.desktop;
+audio/x-wav=vlc.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;

@@ -5,20 +5,17 @@
 # Failure to provide them will cause Fluxbox not to start.
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-nitrogen --restore &
 compton &
 clipit &
 nm-applet &
 pulseaudio &
+cbatticon &
 pa-applet &
-pamac-tray &
-plank &
-xscreensaver &
-xfce4-power-manager &
+conky &
+xscreensaver -no-splash &
 emacs &
 chromium &
 thunderbird &
-hexchat &
 
 # exec is for starting Fluxbox itself, do not put an ampersand (&) after this or Fluxbox will exit immediately.
 # exec /usr/bin/fluxbox
