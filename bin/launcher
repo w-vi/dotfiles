@@ -1,9 +1,0 @@
-#!/bin/sh
-if ! [ -f "$HOME/.dmenurc" ]; then
-        cp /usr/share/dmenu/dmenurc $HOME/.dmenurc
-fi
-. $HOME/.dmenurc
-
-dmenu_cmd="dmenu $DMENU_OPTIONS"
-
-dmenu_path | $dmenu_cmd -p run: "$@" | ${SHELL:-"/bin/sh"} &
