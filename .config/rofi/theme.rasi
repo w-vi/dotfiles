@@ -19,7 +19,7 @@
     active-foreground:           @foreground;
     selected-active-foreground:  @foreground;
     alternate-normal-foreground: @foreground;
-    alternate-active-background: @blue;
+    alternate-active-background: @orange;
     bordercolor:                 @foreground;
     normal-background:           @background;
     selected-normal-background:  @green;
