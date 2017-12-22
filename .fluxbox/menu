@@ -10,7 +10,7 @@
 [submenu] (Internet)
   [exec] (Avahi SSH Server Browser) {/usr/bin/bssh}
   [exec] (Avahi VNC Server Browser) {/usr/bin/bvnc}
-  [exec] (Chromium) {chromium}
+  [exec] (Chromium) {/usr/bin/chromium}
   [exec] (ELinks) {xfce4-terminal -e '/usr/bin/elinks'}
   [exec] (Firefox) {/usr/lib/firefox/firefox}
   [exec] (HexChat) {hexchat --existing}
@@ -35,6 +35,7 @@
   [exec] (Image Viewer) {gpicview}
   [exec] (Pinta) {pinta}
   [exec] (Simple Scan) {simple-scan}
+  [exec] (Viewnior) {viewnior}
 [end]
 [submenu] (Multimedia)
   [exec] (LXMusic simple music player) {lxmusic}

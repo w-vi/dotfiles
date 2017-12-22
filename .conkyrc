@@ -58,9 +58,9 @@ conky.config = {
         color2 = '#AAAAAA',
         color3 = '#888888',
 -- Orange
-        color4 = '#EF5A29',
+        color4 = '#dfaf8f',
 -- Green
-        color5 = '#77B753',
+        color5 = '#7f9f7f',
 
 -- Loading lua script for drawning rings
         lua_load = '~/.conky/seamod_rings.lua',
@@ -109,9 +109,9 @@ ${voffset 43}
 ${offset 90}${font LiberationMono:bold:size=10}${color5}ETHERNET
 ${voffset 40}
 ${offset 15}${color1}${font LiberationMono:bold:size=9}Up: ${alignr}${font LiberationMono:size=9}$color2${upspeed wlp4s0} / ${totalup}
-${offset 15}${upspeedgraph wlp4s0 40,285 4B1B0C FF5C2B 100 -l}
+${offset 15}${upspeedgraph wlp4s0 40,285 dfaf8f ffc9a4 100 -l}
 ${offset 15}${color1}${font LiberationMono:bold:size=9}Down: ${alignr}${font LiberationMono:size=9}$color2${downspeed wlp4s0} / ${totaldown}
-${offset 15}${downspeedgraph wlp4s0 40,285 324D23 77B753 100 -l}
+${offset 15}${downspeedgraph wlp4s0 40,285 5f7f5f 7f9f7f 100 -l}
 
 ${color4}${hr 2}
 
