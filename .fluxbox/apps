@@ -7,13 +7,13 @@
 [end]
 [app] (name=hexchat) (class=Hexchat)
   [Workspace]	{4}
-  [Dimensions]	{24% 50%}
-  [Position]	(UPPERLEFT)	{38% 41%}
+  [Dimensions]	{100% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
   [Close]	{yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]	{66% 71%}
-  [Position]	(UPPERLEFT)	{0% -2%}
+  [Dimensions]	{18% 84%}
+  [Position]	(UPPERLEFT)	{0% -1%}
   [Close]	{yes}
 [end]
 [app] (name=lxmusic) (class=Lxmusic)
@@ -53,7 +53,7 @@
   [Close]	{yes}
 [end]
 [app] (name=gpartedbin) (class=GParted)
-  [Position]	(UPPERLEFT)	{28% 23%}
+  [Position]	(UPPERLEFT)	{4% 17%}
   [Close]	{yes}
 [end]
 [app] (name=lxappearance) (class=Lxappearance)
@@ -67,7 +67,7 @@
 [end]
 [app] (name=pavucontrol) (class=Pavucontrol)
   [Dimensions]	{56% 59%}
-  [Position]	(UPPERLEFT)	{30% 21%}
+  [Position]	(UPPERLEFT)	{39% 19%}
   [Close]	{yes}
 [end]
 [app] (name=xfburn) (class=Xfburn)
@@ -98,20 +98,26 @@
   [Layer]	{8}
   [Close]	{yes}
 [end]
-[app] (name=google-chrome-beta \(/home/wvi/.config/google-chrome-beta\)) (class=google-chrome-beta) (role=browser)
-  [Workspace]	{3}
-  [Close]	{yes}
-[end]
 [app] (name=urxvt) (class=URxvt)
+  [Workspace]	{1}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
-[app] (name=google-chrome-beta \(/home/wvi/.config/google-chrome-beta\)) (class=Google-chrome-beta) (role=browser)
-  [Workspace]	{0}
-[end]
 [app] (name=Navigator) (class=Firefox) (role=browser)
-  [Workspace]	{3}
+  [Workspace]	{4}
 [end]
 [app] (name=chromium) (class=chromium) (role=browser)
-  [Workspace]	{3}
+  [Workspace]	{4}
+[end]
+[app] (name=chromium) (class=Chromium) (role=browser)
+  [Workspace]	{4}
+[end]
+[app] (name=vlc) (class=vlc) (role=vlc-main)
+  [Layer]	{8}
+[end]
+[app] (name=Navigator) (class=firefox-developer) (role=browser)
+  [Workspace]	{4}
+  [Maximized]	{yes}
+[end]
+[app] (name=Navigator) (class=Firefox Developer Edition) (role=browser)
 [end]
