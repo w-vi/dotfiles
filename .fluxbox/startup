@@ -10,11 +10,10 @@ compton &
 clipit &
 nm-applet &
 pa-applet &
-pamac-tray &
 conky &
 plank &
-xscreensaver &
 pulseaudio &
+xscreensaver -no-splash &
 emacs &
 firefox-developer &
 thunderbird &
