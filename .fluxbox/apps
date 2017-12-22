@@ -83,7 +83,7 @@
   [Layer]	{8}
 [end]
 [app] (name=emacs) (class=Emacs)
-  [Workspace]	{2}
+  [Workspace]	{0}
   [Fullscreen]	{no}
   [Layer]	{2}
   [Close]	{yes}

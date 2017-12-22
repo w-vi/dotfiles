@@ -34,7 +34,7 @@ URxvt*xftAntialias: true
 URxvt.background        :#3f3f3f
 URxvt.foreground        :#dcdccc
 URxvt*cursorColor       :#aaaaaa
-URxvt*colorUL           :#6ca0a3
+URxvt*colorUL           :#93e0e3
 URxvt*underlineColor    :#366060
 ! black + red
 URxvt.color0            :#3f3f3f
