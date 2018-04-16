@@ -8,31 +8,24 @@
   [exec] (File Manager) {pcmanfm}
   [exec] (Root File Manager) {gksu pcmanfm}
 [submenu] (Internet)
-  [exec] (Armory (Offline-mode\)) {/usr/local/bin/armory --offline}
-  [exec] (Armory (Testnet\)) {/usr/local/bin/armory --testnet}
-  [exec] (Armory) {/usr/local/bin/armory}
-  [exec] (Astroid Mail) {astroid}
   [exec] (Avahi SSH Server Browser) {/usr/bin/bssh}
   [exec] (Avahi VNC Server Browser) {/usr/bin/bvnc}
-  [exec] (Chromium) {chromium}
-  [exec] (Claws Mail) {claws-mail}
+  [exec] (Chromium) {/usr/bin/chromium}
   [exec] (ELinks) {xfce4-terminal -e '/usr/bin/elinks'}
-  [exec] (FileZilla) {filezilla}
-  [exec] (Firefox Developer) {firefox-developer --class=firefox-developer}
-  [exec] (HexChat) {hexchat --existing}
+  [exec] (Firefox) {/usr/lib/firefox/firefox}
   [exec] (Mail Reader) {exo-open --launch MailReader}
   [exec] (Notmuch (emacs interface\)) {notmuch-emacs-mua --hello}
-  [exec] (Steam) {/usr/bin/steam}
+  [exec] (Skype Preview) {/usr/bin/skypeforlinux}
   [exec] (Thunderbird) {/usr/lib/thunderbird/thunderbird}
-  [exec] (Transmission) {transmission-gtk}
   [exec] (Web Browser) {exo-open --launch WebBrowser}
   [exec] (Zenmap (as root\)) {/usr/share/zenmap/su-to-zenmap.sh}
   [exec] (Zenmap) {zenmap}
   [exec] (Zoom) {/usr/bin/zoom}
 [end]
 [submenu] (Office)
+  [exec] (AbiWord) {abiword}
   [exec] (Document Viewer) {evince}
-  [exec] (ePDFViewer) {epdfview}
+  [exec] (Gnumeric) {gnumeric}
   [exec] (LibreOffice Base) {libreoffice --base}
   [exec] (LibreOffice Calc) {libreoffice --calc}
   [exec] (LibreOffice Draw) {libreoffice --draw}
@@ -40,20 +33,20 @@
   [exec] (LibreOffice Math) {libreoffice --math}
   [exec] (LibreOffice Writer) {libreoffice --writer}
   [exec] (LibreOffice) {libreoffice}
+  [exec] (qpdfview) {qpdfview --unique}
 [end]
 [submenu] (Graphics)
   [exec] (Document Viewer) {evince}
   [exec] (Gcolor2) {gcolor2}
   [exec] (GNU Image Manipulation Program) {gimp-2.8}
+  [exec] (Image Viewer) {gpicview}
   [exec] (LibreOffice Draw) {libreoffice --draw}
-  [exec] (Pencil) {/usr/bin/pencil}
   [exec] (Pinta) {pinta}
+  [exec] (Simple Scan) {simple-scan}
   [exec] (Viewnior) {viewnior}
-  [exec] (XSane - Scanning) {xsane}
 [end]
 [submenu] (Multimedia)
-  [exec] (Audacity) {env UBUNTU_MENUPROXY=0 audacity}
-  [exec] (OBS) {obs}
+  [exec] (LXMusic simple music player) {lxmusic}
   [exec] (PulseAudio Volume Control) {pavucontrol}
   [exec] (Qt V4L2 test Utility) {qv4l2}
   [exec] (VLC media player) {/usr/bin/vlc --started-from-file}
@@ -62,17 +55,15 @@
 [submenu] (Education)
   [exec] (LibreOffice Math) {libreoffice --math}
 [end]
-[submenu] (Games)
-  [exec] (AisleRiot Solitaire) {sol}
-  [exec] (Steam) {/usr/bin/steam}
-[end]
 [submenu] (Tools)
 [submenu] (Accessories)
+  [exec] (Galculator) {galculator}
   [exec] (HP Device Manager) {hp-toolbox}
+  [exec] (Image Viewer) {gpicview}
+  [exec] (ipython) {xfce4-terminal -e 'ipython'}
   [exec] (Isousb) {gksu isousb}
   [exec] (Mousepad) {mousepad}
   [exec] (nitrogen) {nitrogen}
-  [exec] (Passwords and Keys) {/usr/bin/seahorse}
   [exec] (Screenshot) {gnome-screenshot --interactive}
   [exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
   [exec] (Xarchiver) {xarchiver}
@@ -87,19 +78,19 @@
   [exec] (Add/Remove Software) {pamac-manager}
   [exec] (Avahi Zeroconf Browser) {/usr/bin/avahi-discover}
   [exec] (GParted) {/usr/bin/gparted}
-  [exec] (Heimdall) {heimdall-frontend}
   [exec] (Htop) {xfce4-terminal -e 'htop'}
   [exec] (Isousb) {gksu isousb}
+  [exec] (Login Window) {lightdm-settings}
+  [exec] (LSHW) {/usr/sbin/gtk-lshw}
+  [exec] (LXTerminal) {lxterminal}
   [exec] (Manjaro Hello) {/usr/bin/manjaro-hello}
+  [exec] (OpenJDK Java 9 Console) {/usr/lib/jvm/java-9-openjdk/bin/jconsole}
   [exec] (Print Settings) {system-config-printer}
-  [exec] (ranger) {xfce4-terminal -e 'ranger'}
   [exec] (Software Update) {pamac-updater}
   [exec] (urxvt (client\)) {urxvtc}
   [exec] (urxvt (tabbed\)) {urxvt-tabbed}
   [exec] (urxvt) {urxvt}
-  [exec] (UXTerm) {uxterm}
   [exec] (Xfce Terminal) {xfce4-terminal}
-  [exec] (XTerm) {xterm}
 [end]
 [submenu] (Settings)
   [exec] (Add/Remove Software) {pamac-manager}
@@ -107,30 +98,22 @@
   [exec] (ARandR) {arandr}
   [exec] (Bluetooth Manager) {blueman-manager}
   [exec] (Firewall Configuration) {gufw}
-  [exec] (Keyboard and Mouse) {lxinput}
-  [exec] (Manjaro Notifier Settings) {msm_notifier --settings}
+  [exec] (Login Window) {lightdm-settings}
   [exec] (Manjaro Settings Manager) {manjaro-settings-manager}
   [exec] (Network Connections) {nm-connection-editor}
-  [exec] (NVIDIA X Server Settings) {/usr/bin/nvidia-settings}
-  [exec] (Power Manager) {xfce4-power-manager-settings}
+  [exec] (OpenJDK Java 9 Policy Tool) {/usr/lib/jvm/java-9-openjdk/bin/policytool}
   [exec] (Print Settings) {system-config-printer}
   [exec] (Privilege granting) {gksu-properties}
-  [exec] (Qt5 Settings) {qt5ct}
+  [exec] (Screensaver) {xscreensaver-demo}
   [exec] (Software Update) {pamac-updater}
 [end]
 [end]
 [submenu] (Other)
-  [exec] (CMake) {cmake-gui}
   [exec] (Emacs) {emacs}
-  [exec] (Qt Assistant) {assistant}
-  [exec] (Qt Designer) {designer}
-  [exec] (Qt Linguist) {linguist}
-  [exec] (Qt QDbusViewer) {qdbusviewer}
   [exec] (Qt4 Assistant) {assistant-qt4}
   [exec] (Qt4 Designer) {designer-qt4}
   [exec] (Qt4 Linguist) {linguist-qt4}
   [exec] (Qt4 QDbusViewer) {qdbusviewer-qt4}
-  [exec] (Robomongo) {robomongo}
 [end]
 [separator]
 [submenu] (Customization)

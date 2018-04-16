@@ -15,9 +15,8 @@ plank &
 pulseaudio &
 xscreensaver -no-splash &
 emacs &
-firefox-developer &
+chromium &
 thunderbird &
-hexchat &
 urxvt &
 
 # exec is for starting Fluxbox itself, do not put an ampersand (&) after this or Fluxbox will exit immediately.

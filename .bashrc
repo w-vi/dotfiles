@@ -33,4 +33,3 @@ source ~/bash/rhc_bash.sh
 
 #docker thing
 source ~/src/docker-scripts/bash/docker.sh
-

@@ -9,10 +9,9 @@ if [[ $remote == *github.com* ]]; then
 fi
 
 if [[ $remote == *github.com:apiaryio* ]]; then
-    email=wvi@apiary.io
+    email=vilibald.wanca@oracle.com
 fi
 
 echo "Configuring user.name as $user and user.email as $email"
 git config user.name $user
 git config user.email $email
-
