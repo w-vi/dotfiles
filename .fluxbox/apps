@@ -44,7 +44,7 @@
   [Alpha]	{255}
 [end]
 [app] (name=mousepad) (class=Mousepad)
-  [Dimensions]	{40% 58%}
+  [Dimensions]	{64% 94%}
   [Position]	(UPPERLEFT)	{0% -2%}
   [Close]	{yes}
 [end]
@@ -120,4 +120,10 @@
 [end]
 [app] (name=chromium) (class=Chromium) (role=browser)
   [Workspace]	{3}
+[end]
+[app] (name=viewnior) (class=Viewnior)
+  [Workspace]	{0}
+[end]
+[app] (name=clipit) (class=Clipit)
+  [Layer]	{6}
 [end]
