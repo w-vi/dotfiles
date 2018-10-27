@@ -15,7 +15,7 @@ plank &
 pulseaudio &
 xscreensaver -no-splash &
 emacs &
-chromium &
+firefox-developer-edition &
 thunderbird &
 urxvt &
 

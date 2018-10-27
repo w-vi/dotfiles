@@ -7,13 +7,13 @@
 [end]
 [app] (name=hexchat) (class=Hexchat)
   [Workspace]	{4}
-  [Dimensions]	{16% 17%}
-  [Position]	(UPPERLEFT)	{0% 0%}
+  [Dimensions]	{16% 15%}
+  [Position]	(UPPERLEFT)	{42% 44%}
   [Close]	{yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]	{58% 105%}
-  [Position]	(UPPERLEFT)	{0% -2%}
+  [Dimensions]	{71% 85%}
+  [Position]	(UPPERLEFT)	{6% 3%}
   [Close]	{yes}
 [end]
 [app] (name=lxmusic) (class=Lxmusic)
@@ -30,16 +30,16 @@
   [Close]	{yes}
 [end]
 [app] (name=gnumeric) (class=Gnumeric)
-  [Dimensions]	{100% 123%}
+  [Dimensions]	{98% 104%}
   [Position]	(UPPERLEFT)	{0% -2%}
   [Close]	{yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{35% 37%}
+  [Position]	(UPPERLEFT)	{59% 23%}
   [Close]	{yes}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Position]	(UPPERLEFT)	{19% 6%}
+  [Position]	(UPPERLEFT)	{31% 38%}
   [Close]	{yes}
   [Alpha]	{255}
 [end]
@@ -66,8 +66,8 @@
   [Close]	{yes}
 [end]
 [app] (name=pavucontrol) (class=Pavucontrol)
-  [Dimensions]	{67% 79%}
-  [Position]	(UPPERLEFT)	{22% 32%}
+  [Dimensions]	{22% 31%}
+  [Position]	(UPPERLEFT)	{22% 7%}
   [Close]	{yes}
 [end]
 [app] (name=xfburn) (class=Xfburn)
@@ -85,18 +85,12 @@
 [app] (name=emacs) (class=Emacs)
   [Workspace]	{2}
   [Fullscreen]	{no}
-  [Layer]	{2}
+  [Layer]	{8}
   [Close]	{yes}
 [end]
 [app] (name=Mail) (class=Thunderbird) (role=3pane)
   [Workspace]	{4}
   [Maximized]	{yes}
-[end]
-[app] (name=gpicview) (class=Gpicview)
-  [Workspace]	{0}
-  [Jump]	{yes}
-  [Layer]	{8}
-  [Close]	{yes}
 [end]
 [app] (name=urxvt) (class=URxvt)
   [Workspace]	{1}
@@ -106,17 +100,12 @@
 [app] (name=Navigator) (class=Firefox) (role=browser)
   [Workspace]	{3}
 [end]
-[app] (name=chromium) (class=Chromium) (role=browser)
-  [Workspace]	{3}
-[end]
 [app] (name=vlc) (class=vlc) (role=vlc-main)
   [Layer]	{8}
 [end]
-[app] (name=Navigator) (class=firefox-developer) (role=browser)
+[app] (name=Navigator) (class=Firefox Developer Edition) (role=browser)
   [Workspace]	{3}
   [Maximized]	{yes}
-[end]
-[app] (name=Navigator) (class=Firefox Developer Edition) (role=browser)
 [end]
 [app] (name=chromium) (class=Chromium) (role=browser)
   [Workspace]	{3}
@@ -126,4 +115,5 @@
 [end]
 [app] (name=clipit) (class=Clipit)
   [Layer]	{6}
+[app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=xfce4-terminal-1523870702--1204523220)
 [end]
