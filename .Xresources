@@ -11,13 +11,13 @@ Xft.lcdfilter: lcddefault
 URxvt*termName:           rxvt-256color
 URxvt.scrollBar:          off
 URxvt.font:               xft:LiberationMono:size=12:antialias=true
-URxvt.boldFont:           xft:LiberationMono:size=12:antialias=true
+URxvt.boldFont:           xft:LiberationMono:bold:size=12:antialias=true
 URxvt.internalBorder:     1
 URxvt*selectToClipboard:  true
 URxvt*saveLines:          100000
 
 URxvt.perl-ext-common:    default,clipboard,url-select,keyboard-select,matcher,searchable-scrollback
-URxvt.url-select.launcher:        /usr/bin/chromium
+URxvt.url-select.launcher: /usr/bin/firefox-developer-edition
 URxvt.url-select.underline: true
 URxvt.matcher.button:     1
 
