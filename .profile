@@ -31,7 +31,7 @@ ulimit -c unlimited
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
 #Add local directory to the path
-export PATH=/opt/local/bin:/opt/local/sbin:$HOME/.gem/ruby/2.4.0/bin:$HOME/bin:$GOROOT/bin:$GOPATH/bin:$HOME/.evm/bin:$HOME/.screenlayout:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:$HOME/.gem/ruby/2.5.0/bin:$HOME/bin:$GOROOT/bin:$GOPATH/bin:$HOME/.evm/bin:$PATH
 
 # ex - archive extractor
 # usage: ex <file>
@@ -56,6 +56,7 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
 
 source /usr/share/nvm/init-nvm.sh
 PATH="/usr/local/heroku/bin:$PATH"
