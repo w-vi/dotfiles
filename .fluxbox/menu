@@ -11,12 +11,14 @@
   [exec] (Avahi SSH Server Browser) {/usr/bin/bssh}
   [exec] (Avahi VNC Server Browser) {/usr/bin/bvnc}
   [exec] (Chromium) {/usr/bin/chromium}
-  [exec] (ELinks) {xfce4-terminal -e '/usr/bin/elinks'}
   [exec] (FileZilla) {filezilla}
   [exec] (Firefox Developer Edition) {/usr/lib/firefox-developer-edition/firefox}
+  [exec] (Firefox) {/usr/lib/firefox/firefox}
+  [exec] (Geary) {geary}
   [exec] (HexChat) {hexchat --existing}
   [exec] (Links) {xlinks -g}
   [exec] (Mail Reader) {exo-open --launch MailReader}
+  [exec] (Mullvad VPN) {"/opt/mullvad-vpn/mullvad-vpn"}
   [exec] (Notmuch (emacs interface\)) {notmuch-emacs-mua --hello}
   [exec] (Signal (Tray\)) {signal-desktop --start-in-tray}
   [exec] (Signal) {signal-desktop}
@@ -24,11 +26,11 @@
   [exec] (Thunderbird) {/usr/lib/thunderbird/thunderbird}
   [exec] (Transmission) {transmission-gtk}
   [exec] (Web Browser) {exo-open --launch WebBrowser}
-  [exec] (WiFi Radar) {wifi-radar_polkit}
   [exec] (Zenmap (as root\)) {/usr/share/zenmap/su-to-zenmap.sh}
   [exec] (Zenmap) {zenmap}
 [end]
 [submenu] (Office)
+  [exec] (Calendar) {gnome-calendar}
   [exec] (Document Viewer) {evince}
   [exec] (ePDFViewer) {epdfview}
   [exec] (Evolution) {evolution}
@@ -43,6 +45,7 @@
 [end]
 [submenu] (Graphics)
   [exec] (Document Viewer) {evince}
+  [exec] (draw.io) {/usr/bin/draw.io}
   [exec] (Gcolor2) {gcolor2}
   [exec] (GNU Image Manipulation Program) {gimp-2.10}
   [exec] (LibreOffice Draw) {libreoffice --draw}
@@ -53,6 +56,8 @@
   [exec] (XSane - Scanning) {xsane}
 [end]
 [submenu] (Multimedia)
+  [exec] (Audacity) {env UBUNTU_MENUPROXY=0 audacity}
+  [exec] (Cheese) {cheese}
   [exec] (Echomixer) {echomixer}
   [exec] (Envy24 Control) {envy24control}
   [exec] (FFADO Mixer) {ffado-mixer}
@@ -60,8 +65,10 @@
   [exec] (HDSPConf) {hdspconf}
   [exec] (HDSPMixer) {hdspmixer}
   [exec] (Hwmixvolume) {hwmixvolume}
+  [exec] (OpenShot Video Editor) {openshot-qt}
   [exec] (PulseAudio Volume Control) {pavucontrol}
   [exec] (Qt V4L2 test Utility) {qv4l2}
+  [exec] (Qt V4L2 video capture utility) {qvidcap}
   [exec] (Rhythmbox) {rhythmbox}
   [exec] (VLC media player) {/usr/bin/vlc --started-from-file}
   [exec] (Volume Icon) {volumeicon}
@@ -88,6 +95,7 @@
   [exec] (Screenshot) {gnome-screenshot --interactive}
   [exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
   [exec] (Vim) {xfce4-terminal -e 'vim'}
+  [exec] (wxHexEditor) {wxHexEditor}
   [exec] (Xarchiver) {xarchiver}
   [exec] (Xfburn) {xfburn}
 [end]
@@ -100,8 +108,8 @@
   [exec] (Add/Remove Software) {pamac-manager}
   [exec] (Avahi Zeroconf Browser) {/usr/bin/avahi-discover}
   [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
+  [exec] (Color Profile Viewer) {gcm-viewer}
   [exec] (GParted) {/usr/bin/gparted}
-  [exec] (Heimdall) {heimdall-frontend}
   [exec] (Htop) {xfce4-terminal -e 'htop'}
   [exec] (Isousb) {gksu isousb}
   [exec] (LSHW) {/usr/sbin/gtk-lshw}
@@ -109,7 +117,9 @@
   [exec] (Oracle VM VirtualBox) {VirtualBox}
   [exec] (Print Settings) {system-config-printer}
   [exec] (ranger) {xfce4-terminal -e 'ranger'}
-  [exec] (Software Update) {pamac-updater}
+  [exec] (Settings) {gnome-control-center}
+  [exec] (Software Update) {pamac-manager --updates}
+  [exec] (systemadm) {systemadm}
   [exec] (urxvt (client\)) {urxvtc}
   [exec] (urxvt (tabbed\)) {urxvt-tabbed}
   [exec] (urxvt) {urxvt}
@@ -120,20 +130,21 @@
 [submenu] (Settings)
   [exec] (Add/Remove Software) {pamac-manager}
   [exec] (Adobe Flash Player) {flash-player-properties}
+  [exec] (Advanced Network Configuration) {nm-connection-editor}
   [exec] (ARandR) {arandr}
   [exec] (Bluetooth Manager) {blueman-manager}
   [exec] (Firewall Configuration) {gufw}
   [exec] (Keyboard and Mouse) {lxinput}
   [exec] (Manjaro Notifier Settings) {msm_notifier --settings}
   [exec] (Manjaro Settings Manager) {manjaro-settings-manager}
-  [exec] (Network Connections) {nm-connection-editor}
   [exec] (NVIDIA X Server Settings) {/usr/bin/nvidia-settings}
   [exec] (Power Manager) {xfce4-power-manager-settings}
   [exec] (Print Settings) {system-config-printer}
   [exec] (Privilege granting) {gksu-properties}
   [exec] (Qt5 Settings) {qt5ct}
   [exec] (Screensaver) {xscreensaver-demo}
-  [exec] (Software Update) {pamac-updater}
+  [exec] (Software Update) {pamac-manager --updates}
+  [exec] (systemadm) {systemadm}
   [exec] (Xfce Terminal) {xfce4-terminal --preferences}
 [end]
 [end]
@@ -141,14 +152,8 @@
   [exec] (CMake) {cmake-gui}
   [exec] (Electron) {electron}
   [exec] (Emacs) {emacs}
-  [exec] (Qt Assistant) {assistant}
-  [exec] (Qt Designer) {designer}
-  [exec] (Qt Linguist) {linguist}
-  [exec] (Qt QDbusViewer) {qdbusviewer}
-  [exec] (Qt4 Assistant) {assistant-qt4}
-  [exec] (Qt4 Designer) {designer-qt4}
-  [exec] (Qt4 Linguist) {linguist-qt4}
-  [exec] (Qt4 QDbusViewer) {qdbusviewer-qt4}
+  [exec] (Glade) {glade}
+  [exec] (hp-uiscan) {/usr/bin/hp-uiscan}
   [exec] (Robomongo) {robomongo}
 [end]
 [separator]

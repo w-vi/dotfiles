@@ -44,8 +44,8 @@
   [Alpha]	{255}
 [end]
 [app] (name=mousepad) (class=Mousepad)
-  [Dimensions]	{53% 70%}
-  [Position]	(UPPERLEFT)	{0% -2%}
+  [Dimensions]	{25% 36%}
+  [Position]	(UPPERLEFT)	{0% -1%}
   [Close]	{yes}
 [end]
 [app] (name=pamac-manager) (class=Pamac-manager)
@@ -79,7 +79,7 @@
   [Close]	{yes}
 [end]
 [app] (name=emacs) (class=Emacs)
-  [Workspace]	{2}
+  [Workspace]	{3}
   [Fullscreen]	{no}
   [Layer]	{8}
   [Close]	{yes}
@@ -105,5 +105,4 @@
 [end]
 [app] (name=clipit) (class=Clipit)
   [Layer]	{6}
-[app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=xfce4-terminal-1523870702--1204523220)
 [end]
