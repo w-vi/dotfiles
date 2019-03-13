@@ -44,3 +44,5 @@ alias scapiary='~/.screenlayout/apiary.sh'
 alias schome='~/.screenlayout/single-home.sh'
 alias sclaptop='~/.screenlayout/laptop.sh'
 alias rmed='find . -depth -type d -empty -exec rmdir "{}" \;'
+alias pacu-all='yay -Syu'
+

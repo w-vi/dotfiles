@@ -44,7 +44,7 @@
   [Alpha]	{255}
 [end]
 [app] (name=mousepad) (class=Mousepad)
-  [Dimensions]	{64% 94%}
+  [Dimensions]	{53% 70%}
   [Position]	(UPPERLEFT)	{0% -2%}
   [Close]	{yes}
 [end]
@@ -53,7 +53,7 @@
   [Close]	{yes}
 [end]
 [app] (name=gpartedbin) (class=GParted)
-  [Position]	(UPPERLEFT)	{4% 17%}
+  [Position]	(UPPERLEFT)	{26% 11%}
   [Close]	{yes}
 [end]
 [app] (name=lxappearance) (class=Lxappearance)
@@ -78,10 +78,6 @@
   [Position]	(UPPERLEFT)	{41% 10%}
   [Close]	{yes}
 [end]
-[app] (name=google-chrome-beta) (class=google-chrome) (role=browser)
-  [Workspace]	{3}
-  [Layer]	{8}
-[end]
 [app] (name=emacs) (class=Emacs)
   [Workspace]	{2}
   [Fullscreen]	{no}
@@ -97,18 +93,12 @@
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
-[app] (name=Navigator) (class=Firefox) (role=browser)
-  [Workspace]	{3}
-[end]
 [app] (name=vlc) (class=vlc) (role=vlc-main)
   [Layer]	{8}
 [end]
 [app] (name=Navigator) (class=Firefox Developer Edition) (role=browser)
   [Workspace]	{3}
   [Maximized]	{yes}
-[end]
-[app] (name=chromium) (class=Chromium) (role=browser)
-  [Workspace]	{3}
 [end]
 [app] (name=viewnior) (class=Viewnior)
   [Workspace]	{0}
