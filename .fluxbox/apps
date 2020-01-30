@@ -1,108 +1,108 @@
 [app] (name=fbrun)
-  [Position]	(CENTER)	{0 0}
-  [Layer]	{12}
+  [Position]    (CENTER)        {0 0}
+  [Layer]       {12}
 [end]
 [app] (name=plank) (class=Plank)
-  [Layer]	{10}
+  [Layer]       {10}
 [end]
 [app] (name=hexchat) (class=Hexchat)
-  [Workspace]	{4}
-  [Dimensions]	{16% 15%}
-  [Position]	(UPPERLEFT)	{42% 44%}
-  [Close]	{yes}
+  [Workspace]   {4}
+  [Dimensions]  {16% 15%}
+  [Position]    (UPPERLEFT)     {42% 44%}
+  [Close]       {yes}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
-  [Dimensions]	{71% 85%}
-  [Position]	(UPPERLEFT)	{6% 3%}
-  [Close]	{yes}
+  [Dimensions]  {71% 85%}
+  [Position]    (UPPERLEFT)     {6% 3%}
+  [Close]       {yes}
 [end]
 [app] (name=lxmusic) (class=Lxmusic)
-  [Position]	(UPPERLEFT)	{26% 32%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {26% 32%}
+  [Close]       {yes}
 [end]
 [app] (name=Pinta) (class=Pinta)
-  [Dimensions]	{95% 93%}
-  [Fullscreen]	{no}
-  [Close]	{yes}
+  [Dimensions]  {95% 93%}
+  [Fullscreen]  {no}
+  [Close]       {yes}
 [end]
 [app] (name=abiword) (class=Abiword) (role=topLevelWindow)
-  [Position]	(UPPERLEFT)	{14% 11%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {14% 11%}
+  [Close]       {yes}
 [end]
 [app] (name=gnumeric) (class=Gnumeric)
-  [Dimensions]	{98% 104%}
-  [Position]	(UPPERLEFT)	{0% -2%}
-  [Close]	{yes}
+  [Dimensions]  {98% 104%}
+  [Position]    (UPPERLEFT)     {0% -2%}
+  [Close]       {yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{59% 23%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {59% 23%}
+  [Close]       {yes}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Position]	(UPPERLEFT)	{31% 38%}
-  [Close]	{yes}
-  [Alpha]	{255}
+  [Position]    (UPPERLEFT)     {31% 38%}
+  [Close]       {yes}
+  [Alpha]       {255}
 [end]
 [app] (name=mousepad) (class=Mousepad)
-  [Dimensions]	{25% 36%}
-  [Position]	(UPPERLEFT)	{0% -1%}
-  [Close]	{yes}
+  [Dimensions]  {25% 36%}
+  [Position]    (UPPERLEFT)     {0% -1%}
+  [Close]       {yes}
 [end]
 [app] (name=pamac-manager) (class=Pamac-manager)
-  [Position]	(UPPERLEFT)	{5% 0%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {5% 0%}
+  [Close]       {yes}
 [end]
 [app] (name=gpartedbin) (class=GParted)
-  [Position]	(UPPERLEFT)	{26% 11%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {26% 11%}
+  [Close]       {yes}
 [end]
 [app] (name=lxappearance) (class=Lxappearance)
-  [Dimensions]	{61% 74%}
-  [Position]	(UPPERLEFT)	{21% 14%}
-  [Close]	{yes}
+  [Dimensions]  {61% 74%}
+  [Position]    (UPPERLEFT)     {21% 14%}
+  [Close]       {yes}
 [end]
 [app] (name=nitrogen) (class=Nitrogen)
-  [Position]	(UPPERLEFT)	{60% 5%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {60% 5%}
+  [Close]       {yes}
 [end]
 [app] (name=pavucontrol) (class=Pavucontrol)
-  [Dimensions]	{22% 31%}
-  [Position]	(UPPERLEFT)	{22% 7%}
-  [Close]	{yes}
+  [Dimensions]  {22% 31%}
+  [Position]    (UPPERLEFT)     {22% 7%}
+  [Close]       {yes}
 [end]
 [app] (name=xfburn) (class=Xfburn)
-  [Dimensions]	{60% 69%}
-  [Close]	{yes}
+  [Dimensions]  {60% 69%}
+  [Close]       {yes}
 [end]
 [app] (name=timeset-gui) (class=Timeset-gui)
-  [Position]	(UPPERLEFT)	{41% 10%}
-  [Close]	{yes}
+  [Position]    (UPPERLEFT)     {41% 10%}
+  [Close]       {yes}
 [end]
 [app] (name=emacs) (class=Emacs)
-  [Workspace]	{3}
-  [Fullscreen]	{no}
-  [Layer]	{8}
-  [Close]	{yes}
+  [Workspace]   {3}
+  [Fullscreen]  {no}
+  [Layer]       {8}
+  [Close]       {yes}
 [end]
 [app] (name=Mail) (class=Thunderbird) (role=3pane)
-  [Workspace]	{4}
-  [Maximized]	{yes}
+  [Workspace]   {4}
+  [Maximized]   {yes}
 [end]
 [app] (name=urxvt) (class=URxvt)
-  [Workspace]	{1}
-  [Maximized]	{yes}
-  [Close]	{yes}
+  [Workspace]   {1}
+  [Maximized]   {yes}
+  [Close]       {yes}
 [end]
 [app] (name=vlc) (class=vlc) (role=vlc-main)
-  [Layer]	{8}
+  [Layer]       {8}
 [end]
 [app] (name=Navigator) (class=Firefox Developer Edition) (role=browser)
-  [Workspace]	{3}
-  [Maximized]	{yes}
+  [Workspace]   {3}
+  [Maximized]   {yes}
 [end]
 [app] (name=viewnior) (class=Viewnior)
-  [Workspace]	{0}
+  [Workspace]   {0}
 [end]
 [app] (name=clipit) (class=Clipit)
-  [Layer]	{6}
+  [Layer]       {6}
 [end]

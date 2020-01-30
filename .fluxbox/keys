@@ -87,7 +87,7 @@ Control Mod1 Delete :Exec xscreensaver-command -activate
 
 # Switch between us and cz keyboards on alt + left shift
 # Mod1 is ALT, Caps_Lock is what printed by xev upon Caps Lock key press
-Mod1 Caps_Lock :Exec if [[ $(setxkbmap -query|awk '/layout:/ {print $2}') == 'us' ]]; then setxkbmap cz; else setxkbmap us; fi
+Mod1 Caps_Lock :Exec if [[ $(setxkbmap -query|awk '/layout:/ {print $2}') == 'us' ]]; then setxkbmap cz qwerty; else setxkbmap us; fi
 
 # print screen do a full screen screenshot
 Print :Exec gnome-screenshot

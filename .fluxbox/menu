@@ -18,14 +18,16 @@
   [exec] (HexChat) {hexchat --existing}
   [exec] (Links) {xlinks -g}
   [exec] (Mail Reader) {exo-open --launch MailReader}
-  [exec] (Mullvad VPN) {"/opt/mullvad-vpn/mullvad-vpn"}
+  [exec] (Mullvad VPN) {"/opt/Mullvad VPN/mullvad-vpn"}
   [exec] (Notmuch (emacs interface\)) {notmuch-emacs-mua --hello}
+  [exec] (Pidgin Internet Messenger) {pidgin}
   [exec] (Signal (Tray\)) {signal-desktop --start-in-tray}
   [exec] (Signal) {signal-desktop}
   [exec] (Steam) {/usr/bin/steam}
   [exec] (Thunderbird) {/usr/lib/thunderbird/thunderbird}
   [exec] (Transmission) {transmission-gtk}
   [exec] (Web Browser) {exo-open --launch WebBrowser}
+  [exec] (WeeChat) {xfce4-terminal -e 'weechat'}
   [exec] (Zenmap (as root\)) {/usr/share/zenmap/su-to-zenmap.sh}
   [exec] (Zenmap) {zenmap}
 [end]
@@ -41,6 +43,8 @@
   [exec] (LibreOffice Math) {libreoffice --math}
   [exec] (LibreOffice Writer) {libreoffice --writer}
   [exec] (LibreOffice) {libreoffice}
+  [exec] (Lokalize) {lokalize}
+  [exec] (Okular) {okular}
   [exec] (Sigil) {sigil}
 [end]
 [submenu] (Graphics)
@@ -48,7 +52,9 @@
   [exec] (draw.io) {/usr/bin/draw.io}
   [exec] (Gcolor2) {gcolor2}
   [exec] (GNU Image Manipulation Program) {gimp-2.10}
+  [exec] (Gwenview) {gwenview}
   [exec] (LibreOffice Draw) {libreoffice --draw}
+  [exec] (Okular) {okular}
   [exec] (Pencil) {/usr/bin/pencil}
   [exec] (Pinta) {pinta}
   [exec] (Viewnior) {viewnior}
@@ -84,15 +90,19 @@
 [submenu] (Tools)
 [submenu] (Accessories)
   [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
+  [exec] (FSlint) {fslint-gui}
   [exec] (Galculator) {galculator}
   [exec] (HP Device Manager) {hp-toolbox}
   [exec] (ipython) {xfce4-terminal -e 'ipython'}
   [exec] (Isousb) {gksu isousb}
   [exec] (Mousepad) {mousepad}
   [exec] (nitrogen) {nitrogen}
-  [exec] (Passwords and Keys) {/usr/bin/seahorse}
+  [exec] (Passwords and Keys) {seahorse}
+  [exec] (picom) {picom}
   [exec] (PlayOnLinux) {playonlinux}
   [exec] (Screenshot) {gnome-screenshot --interactive}
+  [exec] (Software Token (small\)) {stoken-gui --small}
+  [exec] (Software Token) {stoken-gui}
   [exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
   [exec] (Vim) {xfce4-terminal -e 'vim'}
   [exec] (wxHexEditor) {wxHexEditor}
@@ -109,6 +119,8 @@
   [exec] (Avahi Zeroconf Browser) {/usr/bin/avahi-discover}
   [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
   [exec] (Color Profile Viewer) {gcm-viewer}
+  [exec] (conky) {conky --daemonize --pause=1}
+  [exec] (FSlint) {fslint-gui}
   [exec] (GParted) {/usr/bin/gparted}
   [exec] (Htop) {xfce4-terminal -e 'htop'}
   [exec] (Isousb) {gksu isousb}
@@ -150,11 +162,14 @@
 [end]
 [submenu] (Other)
   [exec] (CMake) {cmake-gui}
+  [exec] (Electron 4) {electron4}
   [exec] (Electron) {electron}
   [exec] (Emacs) {emacs}
   [exec] (Glade) {glade}
   [exec] (hp-uiscan) {/usr/bin/hp-uiscan}
+  [exec] (Okular) {okularkirigami}
   [exec] (Robomongo) {robomongo}
+  [exec] (wxGlade) {wxglade}
 [end]
 [separator]
 [submenu] (Customization)

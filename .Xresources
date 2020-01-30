@@ -10,8 +10,8 @@ Xft.lcdfilter: lcddefault
 
 URxvt*termName:           rxvt-256color
 URxvt.scrollBar:          off
-URxvt.font:               xft:LiberationMono:size=12:antialias=true
-URxvt.boldFont:           xft:LiberationMono:bold:size=12:antialias=true
+URxvt.font:               xft:DejaVu Sans Mono for Powerline:size=12:antialias=true
+URxvt.boldFont:           xft:DejaVu Sans Mono for Powerline:bold:size=12:antialias=true
 URxvt.internalBorder:     1
 URxvt*selectToClipboard:  true
 URxvt*saveLines:          100000
@@ -26,7 +26,7 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-s: perl:keyboard-select:search
 
 ! Not so wide please
-URxvt.letterSpace: -1
+URxvt.letterSpace: 0
 
 URxvt*xftAntialias: true
 
