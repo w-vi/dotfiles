@@ -1,7 +1,7 @@
 configuration {
         modi: "window,run,ssh,combi";
-        width: 50;
-        lines: 20;
+/*      width: 50;*/
+/*      lines: 20;*/
 /*      columns: 1;*/
 /*      font: "mono 12";*/
 /*      bw: 1;*/

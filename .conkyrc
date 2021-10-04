@@ -96,13 +96,14 @@ ${offset 105}${font LiberationMono:normal:size=10}${color2}${top_mem name 3}${al
 ${offset 105}${font LiberationMono:normal:size=10}${color3}${top_mem name 4}${alignr}${top_mem mem 4}%
 ${offset 105}${font LiberationMono:normal:size=10}${color3}${top_mem name 4}${alignr}${top_mem mem 5}%
 
-# Showing disk partitions: root, home and Data
+# Showing disk partitions: root, home and data
 ${voffset 28}
 ${offset 90}${font LiberationMono:size=10}${color5}DISKS
 ${offset 120}${diskiograph 33,183 666666 666666}${voffset -30}
 ${voffset 20}
-${offset 15}${font LiberationMono:bold:size=9}${color1}Free: ${font LiberationMono:size=9}${fs_free /}${alignr}${font LiberationMono:size=9}Used: ${font LiberationMono:size=9}${fs_used /}
-${offset 15}${font LiberationMono:bold:size=9}${color1}Free: ${font LiberationMono:size=9}${fs_free /home}${alignr}${font LiberationMono:size=9}Used: ${font LiberationMono:size=9}${fs_used /home}
+${offset 15}${font LiberationMono:bold:size=9}${color1}Root: Free ${font LiberationMono:size=9}${fs_free /}${alignr}${font LiberationMono:size=9}Used ${font LiberationMono:size=9}${fs_used /}
+${offset 15}${font LiberationMono:bold:size=9}${color1}Home: Free ${font LiberationMono:size=9}${fs_free /home}${alignr}${font LiberationMono:size=9}Used ${font LiberationMono:size=9}${fs_used /home}
+${offset 15}${font LiberationMono:bold:size=9}${color1}Data: Free ${font LiberationMono:size=9}${fs_free /mnt/data}${alignr}${font LiberationMono:size=9}Used ${font LiberationMono:size=9}${fs_used /mnt/data}
 
 # Network data (my desktop have only LAN). ETHERNET ring is mostly useless but looks pretty, main info is in the graphs
 ${voffset 43}

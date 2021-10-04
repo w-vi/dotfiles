@@ -85,6 +85,7 @@
 [end]
 [submenu] (Games)
   [exec] (AisleRiot Solitaire) {sol}
+  [exec] (Kega Fusion) {kega-fusion}
   [exec] (Steam) {/usr/bin/steam}
 [end]
 [submenu] (Tools)
@@ -122,6 +123,7 @@
   [exec] (conky) {conky --daemonize --pause=1}
   [exec] (FSlint) {fslint-gui}
   [exec] (GParted) {/usr/bin/gparted}
+  [exec] (Hardware Locality lstopo) {lstopo}
   [exec] (Htop) {xfce4-terminal -e 'htop'}
   [exec] (Isousb) {gksu isousb}
   [exec] (LSHW) {/usr/sbin/gtk-lshw}
@@ -167,7 +169,6 @@
   [exec] (Emacs) {emacs}
   [exec] (Glade) {glade}
   [exec] (hp-uiscan) {/usr/bin/hp-uiscan}
-  [exec] (Okular) {okularkirigami}
   [exec] (Robomongo) {robomongo}
   [exec] (wxGlade) {wxglade}
 [end]

@@ -18,9 +18,9 @@ export HISTSIZE=900000
 export JAVA_FONTS=/usr/share/fonts/TTF
 export EDITOR='~/bin/edit.sh'
 export PAGER=less
+export BROWSER=/usr/bin/firefox-developer-edition
 
-alias fixit='sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu  &&
-sudo pacman -Suu'
+alias fixit='sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu  && sudo pacman -Suu'
 
 #aliases
 source ~/.aliases.sh
